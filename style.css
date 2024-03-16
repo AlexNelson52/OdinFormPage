@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  background: linear-gradient(#24135F, rgb(0, 0, 0));
+  width: 100%;
+  display: flex;
+}
+
+.img {
+  background-image: url("ravensbackground.jpg");
+  background-size: cover;
+  height: 100%;
+  width: 40%;
+  min-height: 30%;
+  min-width: 30%;
+  margin-top: auto;
+  margin-bottom: .1px;
+  display: flex;
+  justify-content: center;
+  position: static;
+
+  align-content: center;
+  text-align: center;
+}
+
+.link-text {
+  padding-top: 5rem;
+  color: rgba(#24135F)
+}
+
+.photolink {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.img-text {
+  font-size: 45px;
+  font-family: MartixBold;
+  margin: 10rem, 10rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2em;
+  color: white;
+  margin-top: 3em;
+  font-size: 2em;
+  height: 20%;
+  margin-bottom: 3em;
+
+}
+
+.header-subtext {
+  line-height: 4em;
+  color: white;
+  font-size: 2rem;
+  height: 20%;
+
+}
+
+.fourm-container {
+  padding-left: 4rem;
+  line-height: 50px;
+  text-align: start;
+  width: 91.8em;
+  color: #ffffff;
+  background-color: #24135F;
+  min-height: 10%;
+  min-width: 10%;
+}
+
+.fourm-header {
+  font-size: 2.5rem;
+  line-height: 4rem;
+}
+
+.names {
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+}
+
+#fourm-a {
+  padding-left: .2rem;
+  line-height: 50px;
+  text-align: start;
+  width: 100%;
+  display: flex;
+  gap: 20rem;
+  padding-bottom: 3rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  min-height: 5%;
+  min-width: 5%;
+}
+
+input {
+  width: 20rem;
+  height: 2rem;
+  border-radius: 5px;
+  padding-left: 5px;
+  border-color: #24135F;
+}
+
+label,
+h1 {
+  width: 16rem;
+}
+
+.button-create-account {
+  padding-top: 3rem;
+  padding-left: 4.4rem;
+}
+
+button {
+  width: 14rem;
+  height: 3rem;
+  border-radius: 5px;
+  border: solid #24135F .5px;
+  cursor: pointer;
+
+}
+
+.button-subtext {
+  color: white;
+  margin-top: 2rem;
+  margin-left: 6px;
+}
+
+button:hover {
+  background-color: #24135F;
+  color: white
+}
+
+input:invalid {
+  border-color: rgb(255, 0, 0);
+  background-color: #3615ad;
+  color: white;
+}
+
+#firstname:focus,
+#password:focus,
+#email:focus,
+#password2:focus,
+#lastname:focus,
+#telephone:focus {
+  border: solid black 4px;
+}
+
+#password {
+  background-color: #3615ad;
+}
